@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <section className="container page text-center" style={{minHeight:'70vh',display:'grid',placeItems:'center'}}><div><p className="section-kicker">404 / LOST SET</p><h1 className="display" style={{fontSize:'88px',lineHeight:.9,margin:'15px 0'}}>NOT FOUND</h1><p className="page-sub">That route does not exist. Get back to the workout library.</p><Link href="/#library" className="btn btn-primary mt-7">Go to workouts</Link></div></section>}

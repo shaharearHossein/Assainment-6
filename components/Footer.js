@@ -1,0 +1,2 @@
+import {Dumbbell} from 'lucide-react';
+export default function Footer(){return <footer className="footer"><div className="container footer-inner"><div className="footer-brand"><span className="logo-mark"><Dumbbell size={13}/></span><span>FITLOG</span></div><p className="footer-copy">© 2026 FitLog — Workout Library. Train hard, log honest.</p></div></footer>}
